@@ -1,0 +1,19 @@
+Fill in code in the GameServer and GameClient so that clients could play a number guessing game:
+The server generates a random number from 0 to 10, the client tries to guess it,
+while the server provides the hints:
+
+This is a sample output from the client side:
+
+Client: Started...
+Server: I guessed a number from 0 to 10, guess it:
+4
+Server: Your guess is too low
+7
+Server: Your guess is too high
+5
+Server: Your guess is too low
+6
+Server: Correct guess! Game over.
+---------------------------------
+
+You should be using sockets for the server and the client, and each client should be handled by a different Runnable.
